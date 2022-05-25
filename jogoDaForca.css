@@ -1,0 +1,48 @@
+header{
+    margin: 20px 50px 30px;
+    font-size: 30px;
+}
+body{
+   background-color: #009688 ; 
+}
+
+section{
+    display: inline-block; 
+    margin-left:3%;
+    
+
+}
+canvas { 
+    border: 1px solid black;
+    display: inline-block;
+}
+.menu{
+    margin: 10px;
+    column-count:1;
+    vertical-align: text-bottom
+}
+#instrucoes{
+    justify-content: start;
+}
+
+button{
+   
+    background: #BBDEFB;
+    color: black;
+    font-size: 20px;     
+    border-color: #00796B;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    margin: 0 0 20px; /*espaçamento externo*/
+    padding: 10px 25px; /*cima e embaixo, lados espaçamento entre o conteúdo e a borda*/
+    display: inline-block;
+}
+
+input{
+    border-color: #00796B;
+    border-style: solid;
+    border-width: 3px;
+    width:200px;
+    height:55px;
+}
