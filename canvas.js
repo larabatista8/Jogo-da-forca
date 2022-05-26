@@ -11,7 +11,8 @@ var pincel = tela.getContext("2d");
 
 
     pincel.fillStyle = "black";
-    pincel.fillRect =(750,450,90,100);
-    
+    pincel.beginPath();
+    pincel.moveTo=(750,300)
+    pincel.lineTo = (750,500);
 
 

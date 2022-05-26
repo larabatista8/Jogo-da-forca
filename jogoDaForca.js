@@ -9,7 +9,7 @@ const adicionaPalavra = document.querySelector("#adicionaPalavra");
 
     const palavraNova= document.querySelector("#palavraNova");
 
-    const valor = palavraNova.value;
+    const valor = palavraNova.value.upperCase;
 
    console.log(valor);
 palavrasIniciais.push(valor);
