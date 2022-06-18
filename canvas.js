@@ -7,7 +7,7 @@ posição final Y do “pincel”.*/
 var tela = document.querySelector("canvas");
 var pincel = tela.getContext("2d");
  pincel.fillStyle = 'lightgray';
- pincel.fillRect(0, 0, 800, 500);
+ pincel.fillRect(0, 0, 1200, 860);
 
 
     pincel.fillStyle = "black";
@@ -16,3 +16,6 @@ var pincel = tela.getContext("2d");
     pincel.lineTo = (750,500);
 
 
+
+
+    
